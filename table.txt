@@ -1,0 +1,9 @@
+<table>
+		<tr style="background-color: #9CC472; color: #FFF;">
+			<td rowspan="2" colspan="2"><a href="#">TRANG CH?</a></td>
+			<td rowspan="2" colspan="2"><a href="#">GI?I THI?U</a></td>
+			<td rowspan="2" colspan="2"><a href="#"><img src="images/shi.PNG"></a></td>
+			<td rowspan="2" colspan="2"><a href="#">S?N PH?M</a></td>
+			<td rowspan="2" colspan="2"><a href="#">LI?N H?</a></td>
+		</tr>  
+       </table> 

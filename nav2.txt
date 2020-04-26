@@ -1,0 +1,57 @@
+<nav>
+	   	<ul>
+			<li><a href="#">TRANG CH?</a></li>
+			<li><a href="#">S?N PH?M</a>
+				<ul role="menu">
+					<li><span class="listsp"></span>Hoa Bó</li>
+					<li><span class="listsp"></span>Hoa Bình</li>
+					<li><span class="listsp"></span>Hoa H?p</li>
+					<li><span class="listsp"></span>Hoa Cu?i</li>
+					<li><span class="listsp"></span>Hoa K?</li>
+					<li><span class="listsp"></span>Xe Hoa</li>
+				</ul>
+			</li>
+			<li><a href="#"><img src="images/shi.PNG"</a></li>
+			<li><a href="#">S?N PH?M</a></li>
+			<li><a href="#">LI?N H?</a></li>
+		</ul>
+	   </nav>
+
+
+nav ul li {
+	display:inline;
+	padding:0px 20px 5px 10px;
+	height:24px;	
+}
+
+nav ul{
+	list-style: none;
+	padding: 0px;
+	display: block;
+	clear: right;
+	background-color: #9CC472;
+	padding-left: 50px;
+	height:24px;
+	line-height: 23px;
+}
+nav {
+    width: 90%;
+    height: 100px;
+    background-color: #9CC472;
+	margin: auto;
+}
+nav ul li a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:20px;
+	font-weight:bold;
+	padding-right: 10px;
+	margin-top: 0px;
+}
+nav ul li a img {	
+	
+	margin: 0 70px 0 70px;
+	
+}
+
+nav ul li a:hover{color:black;}

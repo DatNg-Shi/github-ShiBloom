@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	<script type="text/javascript">
+		var ck_name = /^[A-Za-zO-9 ]{3,20}$/;
+		var ck_email = /^([\w-]+(?:\.[w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0, 66})\. ([a-z] {2, 6} (?: \. [a-z] {2} ) ?) $/i
+		var ck_username = /^[A-Za-zO-9 ]{1,20}$/;
+		var ck_password =  /^[A-Za-z0-9!@#$%^&*()_] {6,20}$/;
+
+		function validate (form) {
+			var name = form.name.value;
+			var email = form.email.value;
+			var username = form.username.value;
+			var password = form.password.value;
+			var gender = form.gender.value;
+			var errors = [];
+
+			if (!ck_name.test(name)) {
+				errors[errors.length] = "You valid Name .";
+			}
+			if (!ck_email.test(email)) {
+				errors[errors.length] = "You must enter a valid emailaddress.";
+			}
+			if (!ck_username.test(username)) {
+			errors[errors.length] = "You valid UserName no specialchar .";
+			}
+			if (!ck_password.test(password)) {
+				errors[errors.length] = "You must enter a valid Password";
+			}
+			if (gender==O) {
+				errors[errors.length] = "Select Gender";
+			}
+			if (errors.length > 0) {
+
+				reportErrors(errors);
+				return false;
+			}
+  				return true;
+		}
+		function reportErrors(errors) {
+			var msg = "Please Enter Valide Data...\n";
+			for (var i = 0; i<errors.length; i++) {
+				var numError = i + 1;
+				msg += "\n" + numError + ". " + errors[i];
+			}
+				alert(msg);
+		}
+	</script>
+</head>
+
+<body>
+<form method="post" action="#" onSubmit="return validate(this);" name="form"></form>
+</body>
+</html>

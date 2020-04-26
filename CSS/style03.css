@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.newinfo {
+	width: 100%;
+	
+	margin-top: 50px;
+	margin-bottom: 50px;
+	min-height: 50px;
+	clear: both;
+	
+}
+.newinfo img {
+	float: left;
+	margin: 5px;
+	width: 80px;
+	height: 60px;
+}
+.newinfo p {
+	margin: 0px;
+}

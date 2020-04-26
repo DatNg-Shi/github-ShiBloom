@@ -1,0 +1,355 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home >> ShiBloom</title>
+<link rel="stylesheet" type="text/css" href="../CSS/style01.css">
+<link rel="stylesheet" type="text/css" href="../CSS/style02.css">
+<link rel="stylesheet" type="text/css" href="../CSS/style03.css">
+<link rel="stylesheet" type="text/css" href="../CSS/style04.css">
+<script language="javascript"src="js/slideshow.js" ></script>
+<style>
+	.head1 {
+		width: 90%;
+		height: 150px;
+		margin: auto;
+		background-color: #7FA458;
+	}
+	
+	.head1 img {
+		width: 20%;
+		background-color: none;
+		left: 40%;
+		top: 3%;
+		position: absolute;
+	}
+	.head2 {
+		background-color: rgba(141,122,203,0.9);
+		width: 90%;
+		height: 250px;
+		padding-top: 1%;
+		margin: auto;
+		position: relative;
+		color: #FFF;
+	}
+	.head2 h1{
+		font-size: 50px;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		font-weight: 100;
+		position: absolute;
+		left: 43%;
+	}
+	.head2 p {
+		font-size: 20px;
+
+		position: absolute;
+		left: 41%;
+		top: 40%;
+	}
+	.head2 a {
+		text-decoration: none;
+		color: #FFF;
+	}
+	.head2 a:hover{color: #DA8DDF}
+	
+	.content {
+		background-color: whitesmoke;
+		width: 80%;
+		height: auto;
+		margin: auto;
+	}
+	
+	.show_infor {
+		width: 100%;
+		height: 52%;
+		background-color: black;
+		position: relative;	
+	}
+	.show_infor .icon a {
+		color: #FFF;
+	}
+	.show_infor .mask {
+   		background-color: rgba(141,122,203,0.9);
+		position: absolute;
+		z-index: 100;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		opacity: 1;
+		display: none;
+		transition: all ease-in-out .5s;
+	}
+	.show_infor:hover .mask{
+		display: block;
+
+	}
+	.show_infor:hover .button_xemnhanh {
+		display: block;
+	}
+	.button_xemnhanh:hover {
+		display: block;
+		background-color: black;
+	}
+	.icons {
+		font-weight: bold;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		position: absolute;
+		z-index: 1002;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		pointer-events: none;
+		background-color: none;
+	}
+	.button_xemnhanh {
+		background-color: #DFBBBB;
+		color: #FFF;
+		position: absolute;
+		margin-top: 39%;
+		bottom: auto;
+		font-size: 13px;
+		letter-spacing: 0.4px;
+		display: none;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 0 3.063em;
+		width: 57%;
+		height: 50px;
+		line-height: 52px;
+		pointer-events: all;
+		border-radius: 10px;
+	}
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="head1">
+			<img src="../images/shi.png"/>
+		</div>
+       	<div class="head2">
+       		<h1>HOA BÓ</h1>
+       		<p><a href="../index.html">home</a> > <a href="hoabo1.html">sản phẩm</a> > hoa bó</p>
+       	</div>
+       	<div class="content">
+       		<div class="contentright">
+       			<div class="top">
+					<div  class="count">
+						<p>Showing 9-16 of 24 results</p>
+					</div>
+					<form class="woocommerce-ordering" method="get">
+						<div class="select_container">
+							<select name="orderby" class="orderby">
+								<option value="popularity">Thứ tự theo mức độ phổ biến</option>
+								<option value="rating">Thứ tự theo điểm đánh giá</option>
+								<option value="date" selected="selected">Mới nhất</option>
+								<option value="price">Thứ tự theo giá: thấp đến cao</option>
+								<option value="price-desc">Thứ tự theo giá: cao xuống thấp</option>
+							</select>
+						</div>
+						<input type="hidden" name="paged" value="1">
+					</form>
+     			</div>
+      			<div class="list_HoaBo">
+                <!--Mỗi đồ sẽ nằm trong div sp-->
+                	<div class="spbo">
+                    	<div class="show_infor"><img id="img" src="../images/bo/bo39.jpg" />
+                    		<div class="mask"></div>
+                    		<div class="icons">
+								<a href="info/bo39.html" aria-hidden="true" class="button_xemnhanh icon-search2" style="color: #FFF;">Xem nhanh</a> 		
+                   			</div>
+                    	</div>
+                    	<img id="vien" src="../images/border.png"/>
+						<p class="name"><a href="#">Hoa bó mẫu SB-BO39</a></p> 
+               			<p class="price">700.000₫</p>
+					</div>
+					<div class="spbo">
+						<div class="show_infor"><img id="img" src="../images/bo/bo41.jpg" />
+							<div class="mask"></div>
+                    		<div class="icons">
+								<a href="info/bo41.html" aria-hidden="true" class="button_xemnhanh icon-search2" style="color: #FFF;">Xem nhanh</a> 		
+                   			</div>
+						</div>
+						<img id="vien" src="../images/border.png"/>
+						<p class="name"><a href="#">Hoa bó mẫu SB-BO41</a></p> 
+						<p class="price">700.000₫</p>
+					</div>
+					<div class="spbo">
+						<div class="show_infor"><img id="img" src="../images/bo/bo56.jpg" />
+							<div class="mask"></div>
+                    		<div class="icons">
+								<a href="info/bo56.html" aria-hidden="true" class="button_xemnhanh icon-search2" style="color: #FFF;">Xem nhanh</a> 		
+                   			</div>
+						</div>
+						<img id="vien" src="../images/border.png"/>
+						<p class="name"><a href="#">Hoa bó mẫu SB-BO56</a>
+						<p class="price">700.000₫</p>
+                	</div>
+					<div class="spbo">
+						<div class="show_infor"><img id="img" src="../images/bo/bo57.jpg" />
+							<div class="mask"></div>
+                    		<div class="icons">
+								<a href="info/bo57.html" aria-hidden="true" class="button_xemnhanh icon-search2" style="color: #FFF;">Xem nhanh</a> 		
+                   			</div>
+						</div>	
+						<img id="vien" src="../images/border.png"/>
+						<p class="name"><a href="#">Hoa bó mẫu SB-BO57</a></p> 
+						<p class="price">700.000₫</p>
+					</div>
+					<div class="spbo">
+						<div class="show_infor"><img id="img" src="../images/bo/bo58.jpg" />
+							<div class="mask"></div>
+                    		<div class="icons">
+								<a href="info/bo58.html" aria-hidden="true" class="button_xemnhanh icon-search2" style="color: #FFF;">Xem nhanh</a> 		
+                   			</div>
+						</div>
+						<img id="vien" src="../images/border.png"/>
+						<p class="name"><a href="#">Hoa bó mẫu SB-BO58</a></p>
+						<p class="price">700.000₫</p>
+					</div>
+					<div class="spbo">
+						<div class="show_infor"><img id="img" src="../images/bo/bo59.jpg" />
+							<div class="mask"></div>
+                    		<div class="icons">
+								<a href="info/bo59.html" aria-hidden="true" class="button_xemnhanh icon-search2" style="color: #FFF;">Xem nhanh</a> 		
+                   			</div>
+						</div>
+						<img id="vien" src="../images/border.png"/>
+						<p class="name"><a href="#">Hoa bó mẫu SB-BO59</a></p> 
+						<p class="price">700.000₫</p>
+					</div>
+					<div class="spbo">
+						<div class="show_infor"><img id="img" src="../images/bo/bo63.jpg" />
+							<div class="mask"></div>
+                    		<div class="icons">
+								<a href="info/bo63.html" aria-hidden="true" class="button_xemnhanh icon-search2" style="color: #FFF;">Xem nhanh</a> 		
+                   			</div>
+						</div>
+						<img id="vien" src="../images/border.png"/>
+						<p class="name"><a href="#">Hoa bó mẫu SB-BO63</a></p> 
+						<p class="price">700.000₫</p>
+					</div>
+					<div class="spbo">
+						<div class="show_infor"><img id="img" src="../images/bo/bo62.jpg" />
+							<div class="mask"></div>
+                    		<div class="icons">
+								<a href="info/bo62.html" aria-hidden="true" class="button_xemnhanh icon-search2" style="color: #FFF;">Xem nhanh</a> 		
+                   			</div>
+						</div>
+						<img id="vien" src="../images/border.png"/>
+						<p class="name"><a href="#">Hoa bó mẫu SB-BO62</a></p> 
+						<p class="price">700.000₫</p>
+					</div>
+            	</div>
+            	<nav class="nav_page">
+					<ul class="page-ul">
+						<li><a class="next page-numbers" href="hoabo1.html"><div>←</div></a></li>
+						<li><a class="page-numbers" href="hoabo1.html"><div>1</div></a></li>
+						<li><a class="page-numbers" href="hoabo2.html"><div style="background-color: #8d7acb; color: #FFF;">2</div></a></li>
+						<li><a class="page-numbers" href="hoabo3.html"><div>3</div></a></li>
+						<li><a class="next page-numbers" href="hoabo3.html"><div>→</div></a></li>
+					</ul>
+				</nav>
+       		</div>
+       		<div class="contentleft">
+       			<aside class="search">
+       				<h5 class="widget_title">Tìm kiếm hoa</h5>
+					<form role="search" method="get" class="search_form" action="">
+						<input type="text" class="search_field fill_inited" placeholder="Search for products …" value="" name="s">
+							<button class="search_button" type="submit">Search</button>
+					</form>
+				</aside>
+      			<aside class="shopping">
+					<h5 class="widget_title">Giỏ hàng</h5>
+					<div class="widget_shopping_cart_content">
+						<p class="woocommerce-mini-cart__empty-message">Chưa có sản phẩm trong giỏ hàng.</p>
+					</div>
+      			</aside>
+      			<aside id="woof_widget-2" class="loc_container">        
+            		<h5 class="widget_title">Lọc Sản Phẩm</h5>       
+            		<div class="woof woof_sid woof_sid_widget">
+                		<div class="woof_redraw_zone" data-woof-ver="2.2.2.1">
+		        			<div class="loc_gia">
+		    					<h4>Lọc theo giá</h4>
+    							<div class="select_price">
+    								<select class="price_dropdown">
+        								<option value="-1">Chon mức giá</option>              
+										<option disabled="" value="0-500000">0₫ - 500.000₫ (0)</option>
+										<option value="500000-1000000">500.000₫ - 1.000.000₫ (68)</option>
+										<option value="1000000-1500000">1.000.000₫ - 1.500.000₫ (15)</option>
+										<option value="1500000-2000000">1.500.000₫ - 2.000.000₫ (10)</option>
+										<option value="2000000-2550000">2.000.000₫ - ∞ (7)</option>
+    								</select>	
+    							</div>
+		        			</div>          
+                		</div>
+            		</div>
+        		</aside>
+        		<aside id="woocommerce_product_categories-2" class="categories">
+       				<h5 class="widget_title">Danh mục sản phẩm</h5>
+       				<ul class="product-categories">
+        				<li class="item"><a href="hoabo1.html">Hoa Bó</a></li>
+						<li class="item"><a href="hoabinh1.html">Hoa Bình</a></li>
+						<li class="item"><a href="hoacb1.html">Hoa Chia Buồn</a></li>
+						<li class="item"><a href="hoacm1.html">Hoa Chúc Mừng</a></li>
+						<li class="item"><a href="hoacuoi1.html">Hoa Cưới</a></li>
+						<li class="item"><a href="hoahop1.html">Hoa Hộp</a></li>
+						<li class="item"><a href="hoake1.html">Hoa Kệ</a></li>
+						<li class="item"><a href="hoasn1.html">Hoa Sinh Nhật</a></li>
+						<li class="item"><a href="hoatangme1.html">Hoa Tặng Mẹ</a></li>
+						<li class="item"><a href="hoaty1.html">Hoa Tình Yêu</a></li>
+						<li class="item"><a href="hoamm1.html">Mẫu Hoa Mới</a></li>
+						<li class="item"><a href="xehoa1.html">Xe Hoa</a></li>
+					</ul>
+      			</aside>
+       		</div>
+       		
+       	</div>
+        <footer>
+        	<div class="footer_left">
+        	<ul style="font-weight: bold">
+        		<li><a href="../about.html">Về Chúng Tôi</a></li>
+        		<li><a href="hoabo1.html">Cửa Hàng</a></li>
+        		<li><a href="../danhgia.html">Đánh Giá</a></li>
+        		<li><a href="../lienhe.html">Liên Hệ</a></li>
+        		<li><a href="https://www.facebook.com/ryoushikaidou"><img src="../images/fb.png"/></a></li>
+        	</ul>
+     		</div>
+     		<div class="footer_center">
+     			<ul>
+        			<li style="font-weight: bold; font-size: 20px">Giờ Mở Cửa</li>
+        			<li>T2 - T7 : 9:00 AM – 8:00 PM</li>
+        			<li>CN : 9:00 AM – 6:00 PM</li>
+        		</ul>
+     		</div>
+     		<div class="footer_right">
+     			<ul>
+        			<li style="font-weight: bold; font-size: 20px">Liên Hệ</li>
+        			<li>999 Phần Mềm Quang Trung, quận 12, TP.HCM</li>
+        			<li>Email:shibloomvn@gmail.com</li>
+        			<li>Telephone:0904.696.969 - 0938.88.8282</li>
+        		</ul>
+     		</div>
+        </footer>
+        <div class="copyright">
+        	<p>Copyright © 2019 thuộc về ShiBloom</p>
+        	<div class="card">
+        		<img src="../images/paypal.jpg">
+        		<img src="../images/mastercard.jpg"/>
+        		<img src="../images/visa.jpg"/>
+        		<img src="../images/paypal.jpg"/>
+        		<img src="../images/americanexpress.jpg"/>	
+			</div>
+        </div>
+        <div class="lienhe">
+        	<div id="call" style="background-color: #4A57DC;"><a href="tel:0938778284"><img src="../images/call.png"/></a></div>
+        	<div id="call" style="background-color: orange;"><a href="sms:0938778284"><img src="../images/mail.png"/></a></div>
+        	<div id="call" style="background-color: #4A57DC;"><a href="https://zalo.me/0938778284"><img src="../images/zalo.png"/></a></div>
+        	<div id="call" style="background-color: red;"><a href="https://m.me/ryoushikaidou"><img src="../images/messenger.png"/></a></div>
+        </div>	
+	<a class="scroll_to_top" href="#top">^</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,393 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home >> ShiBloom</title>
+<link rel="stylesheet" type="text/css" href="../../CSS/style01.css">
+<link rel="stylesheet" type="text/css" href="../../CSS/style02.css">
+<link rel="stylesheet" type="text/css" href="../../CSS/style03.css">
+<link rel="stylesheet" type="text/css" href="../../CSS/style04.css">
+
+<style>
+	.head1 {
+		width: 90%;
+		height: 150px;
+		margin: auto;
+		background-color: #7FA458;
+	}
+	
+	.head1 img {
+		width: 20%;
+		background-color: none;
+		left: 40%;
+		top: 3%;
+		position: absolute;
+	}
+	.head2 {
+		background-color: rgba(141,122,203,0.9);
+		width: 90%;
+		height: 250px;
+		padding-top: 1%;
+		margin: auto;
+		position: relative;
+		color: #FFF;
+	}
+	.head2 h1{
+		font-size: 50px;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+		font-weight: 100;
+		position: absolute;
+		left: 33%;
+	}
+	.head2 p {
+		font-size: 20px;
+
+		position: absolute;
+		left: 37%;
+		top: 40%;
+	}
+	.head2 a {
+		text-decoration: none;
+		color: #FFF;
+	}
+	.head2 a:hover{color: #DA8DDF}
+	
+	.container_content {
+		background-color: white;
+		width: 90%;
+		height: auto;
+		margin: auto;
+		position: relative;
+		padding: 6% 0 0 0;;
+	}
+	.content1 {
+		background-color: none;
+		width: 85%;
+		height: 576px;
+		margin: auto;
+		display: block;
+	}
+	.content2 {
+		background-color: none;
+		width: 85%;
+		margin: auto;
+		margin-top: 5%;
+		padding-bottom: 10%;
+	}
+	.ctleft {
+		background-color: none;
+		width: 45%;
+		height: 500px;
+		float: left;
+	}
+	.ctright {
+		background-color: none;
+		float: right;
+		width: 51%;
+	}
+	.ctleft img {
+		width: 100%;
+		height: 100%;
+	}
+	.price {
+		font-size: 40px;
+		color: #8d7acb;
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	}
+	.orderby {
+		color: #7F72AD;
+		border: 1px solid #fcf9f7;
+		background: #F9F3EF;	
+		font-family: "gandhi",serif;
+		font-size: 16px;
+		border-radius: 50px;
+		width: 10% ;
+		height: 20px;
+		padding: 1.15em 1.85em 1.022em;
+		line-height: 30px;
+		float: left;
+	}
+	.add_to_cart:hover {
+		background-color: #8d7acb;
+		border: 1px solid #8d7acb;
+	}
+	#quick_buy:hover{
+		background-color: #f6b6cc;
+		border: 1px solid #f6b6cc;
+	}
+	.quick_buy_container {
+		margin-top: 2%;
+	}
+	#quick_buy {
+		pointer-events: auto;
+		background-color: #8d7acb;
+		border: 1px solid #8d7acb;
+		width: 30%;
+		height: 55px;
+		color: #FFF;
+		text-transform: uppercase;
+		border-radius: 30px;
+		line-height: 17px;
+    	letter-spacing: 0;
+		font-size: 13px;
+		font-weight: bold;
+	}
+	.add_to_cart {
+		pointer-events: auto;
+		background-color: #f6b6cc;
+		border: 1px solid #f6b6cc;
+		width: 30%;
+		height: 55px;
+		color: #FFF;
+		text-transform: uppercase;
+		border-radius: 30px;
+		line-height: 17px;
+    	letter-spacing: 0;
+		margin-left: 2%;
+		font-size: 13px;
+		font-weight: bold;
+	}
+	.product_meta {
+		margin-top: 4%;
+	}
+	.product_meta a{
+		text-decoration: none;
+		color: black;
+		font-weight: 100;
+		font-size: 16px;
+		font-family: "gandhi",serif;
+	}
+	.product_meta a:hover{color: #8d7acb;}
+	.wrapper {
+		background: linear-gradient(#B1E4B5 90%, green);
+		margin-top: 5%;
+		width: 80%;
+		padding: 2%;
+		margin-bottom: 4%;
+	}
+	.wrapper ol {
+		color: green;
+	}
+	.tick {
+		background-color: none;
+		width: 20%;
+		float: left;
+		height: 74px;
+		text-align: center;
+	}
+	.tick img {
+		margin-top: 48%;
+	}
+	.info p {
+		color: #3b3bae;
+		font-weight: bold;
+	}
+	.btn_danhgia div{
+		pointer-events: auto;
+		background-color: #8d7acb;
+		border: 1px solid #8d7acb;
+		width: 16%;
+		height: 55px;
+		color: #FFF;
+		text-transform: uppercase;
+		border-radius: 30px;
+    	letter-spacing: 0;
+		font-size: 13px;
+		font-weight: bold;
+		text-decoration: none;
+		text-indent: 49px;
+		line-height: 60px;
+	}
+	.chuact2 {
+		color: #66646e;
+		font-size: 17px;
+	}
+	.required {
+		color: red;
+	}
+	#author,#email {
+		width: 30%;
+		background-color: none;
+		border-radius: 30px;
+		min-height: 3em;
+		color: #878491;
+    	background-color: #fcf9f7;
+		border: 1px solid #fcf9f7;
+		text-indent: 30px;
+	}
+	textarea {
+		width: 99.5%;
+    	min-height: 8.4em;
+		color: #878491;
+    	border-color: #fcf9f7;
+    	background-color: #fcf9f7;
+		border-radius: 30px;
+		text-indent: 25px;
+		margin-top: 1%;
+	}
+	.form-submit{
+		background-color: none;
+		width: 10%;
+		float: left;
+		
+	}
+	.submit {
+    	background-color: #8d7acb;
+		width: 100%;
+		height: 50px;
+		border-radius: 30px;
+		color: aliceblue;
+		font-weight: bold;
+		font-size: 12px;
+		white-space: 10px;
+		border: 1px solid #8d7acb;
+		line-height: 1px;
+	}
+	footer {
+		border-top: 1px solid #B1B1B1;
+	}
+</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="head1">
+			<img src="../../images/shi.png"/>
+		</div>
+       	<div class="head2">
+       		<h1>Hoa hộp mẫu SB-H64</h1>
+       		<p><a href="index.html">home</a> > <a href="../hoabo1.html">sản phẩm</a> > Hoa hộp mẫu SB-H64</p>
+       	</div>
+       	<div class="container_content">
+       	  	<div class="content1">
+       	  		<div class="ctleft">
+       	  			<img src="../../images/hop/h64.jpg"/>
+       	  		</div>
+       	  		<div class="ctright">
+       	  			<p class="price">Giá yêu thương: 700.000₫</p>
+   	  			  <form class="cart" action="#" method="post">
+						<div class="quantity">
+							<input class="orderby" type="number" step="1" min="1" max="" name="quantity" value="1" title="SL" size="10">
+						</div>
+						<button type="submit" name="add-to-cart" class="add_to_cart">Thêm vào giỏ</button>
+					</form>
+      	  			<div class="quick_buy_container">
+      	  				<input value="Đặt hàng nhanh" type="button" id="quick_buy" name="">
+      	  			</div>
+      	  			<div class="product_meta">
+						<span class="posted_in" style="font-weight: bold;">Danh mục: <a href="../hoahop1.html" rel="tag">Hoa Hộp</a></span>
+					</div>
+      	  			<div class="info">
+						<div class="wrapper">
+							<div class="tick">
+								<img src="../../images/tick.png"/>
+							</div>
+							<ol>
+								<li>Tặng miễn phí banner, thiệp</li>
+								<li>Giao gấp trong 2 giờ</li>
+								<li>Cam kết hoa tươi<br>
+								<strong style="color: black">Freeship Quận 1</strong></li>
+							</ol>
+						</div>
+						<p>ĐỐI VỚI SẢN PHẨM NÀY, SHOP SẼ BẮT ĐẦU GIAO HÀNG TỪ 05/03 ĐẾN 08/03.</p>
+						<p>Giá cận Lễ sẽ tăng cao, Quý Khách vui lòng đặt sớm từ bây giờ để được mức giá tốt nhất.</p>
+						<p>Liên hệ đặt hoa qua hotline: 0939.888.282</p>
+					</div>
+       	  		</div>
+			</div>
+      	  	<div class="content2">
+       	  		<div class="chuact2">
+					<a href="#tab-reviews" class="btn_danhgia" style="text-decoration: none;"><div>Đánh giá (0)</div></a>
+					<div class="comments" style="display: block;">
+							<div id="cmt1">
+								<h3 style="font-size: 28px; font-weight: 100; color: black">Đánh giá</h3>	
+								<p class="woocommerce-noreviews">Chưa có đánh giá nào.</p>
+							</div>
+							<div id="cmt2">
+								<div id="review_form">
+									<div class="respond">
+										<span style="font-size: 27px;">Hãy là người đầu tiên nhận xét “Hoa hộp mẫu SB-H64”</span>			
+										<form action="#" method="post" id="commentform" class="comment-form">
+											<p style="line-height: 1px">Email của bạn sẽ không được hiển thị công khai. Các trường bắt buộc được đánh dấu <span class="required">*</span>
+											</p>
+											<p class="comment-author" style="margin-top: 3%;">Tên <span class="required">*</span>
+												<input style="margin-left: 1.2%;" id="author" name="author" type="text" value="" size="30" required="">
+											</p>
+											<p class="comment-email">Email <span class="required">*</span>
+												<input id="email" name="email" type="email" value="" size="30" required="">
+											</p>
+											<div class="comment-form-rating">
+												<label for="rating">Đánh giá của bạn</label>
+												<div class="rating">
+													<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+												</div>
+											</div>
+											<p class="comment-form-comment">
+												<label for="comment" style="display: block;">Nhận xét của bạn&nbsp;<span class="required">*</span></label>
+												<textarea id="comment" name="comment" cols="45" rows="8" required></textarea>
+											</p>
+											<p class="form-submit">
+												<input onClick="myfunction()" name="submit" type="submit" id="submit" class="submit" value="Gửi đi"> 
+											</p>
+											<p class="text" id="text" style="color: red"></p>
+											<script>
+												function myfunction() {
+					  								document.getElementById("text").innerHTML = "One or more fields have an error. Please check and try again!";
+												}
+											</script>				
+										</form>
+									</div><!-- #respond -->
+								</div>
+							</div>
+							<div class="clear"></div>
+						
+					</div>
+				</div     
+			</div>
+   		</div>
+    <footer>
+       	<div class="footer_left">
+        	<ul style="font-weight: bold">
+        		<li><a href="../../about.html">Về Chúng Tôi</a></li>
+        		<li><a href="../hoabo1.html">Cửa Hàng</a></li>
+        		<li><a href="../../danhgia.html">Đánh Giá</a></li>
+        		<li><a href="../../lienhe.html">Liên Hệ</a></li>
+        		<li><a href="https://www.facebook.com/ryoushikaidou"><img src="../../images/fb.png"/></a></li>
+        	</ul>
+     		</div>
+     		<div class="footer_center">
+     			<ul>
+        			<li style="font-weight: bold; font-size: 20px">Giờ Mở Cửa</li>
+        			<li>T2 - T7 : 9:00 AM – 8:00 PM</li>
+        			<li>CN : 9:00 AM – 6:00 PM</li>
+        		</ul>
+     		</div>
+     		<div class="footer_right">
+     			<ul>
+        			<li style="font-weight: bold; font-size: 20px">Liên Hệ</li>
+        			<li>999 Phần Mềm Quang Trung, quận 12, TP.HCM</li>
+        			<li>Email:shibloomvn@gmail.com</li>
+        			<li>Telephone:0904.696.969 - 0938.88.8282</li>
+        		</ul>
+     		</div>
+        </footer>
+        <div class="copyright">
+        	<p>Copyright © 2019 thuộc về ShiBloom</p>
+        	<div class="card">
+        		<img src="../../images/paypal.jpg">
+        		<img src="../../images/mastercard.jpg"/>
+        		<img src="../../images/visa.jpg"/>
+        		<img src="../../images/paypal.jpg"/>
+        		<img src="../../images/americanexpress.jpg"/>	
+			</div>
+        </div>
+        <div class="lienhe">
+        	<div id="call" style="background-color: #4A57DC;"><a href="tel:0938778284"><img src="../../images/call.png"/></a></div>
+        	<div id="call" style="background-color: orange;"><a href="sms:0938778284"><img src="../../images/mail.png"/></a></div>
+        	<div id="call" style="background-color: #4A57DC;"><a href="https://zalo.me/0938778284"><img src="../../images/zalo.png"/></a></div>
+        	<div id="call" style="background-color: red;"><a href="https://m.me/ryoushikaidou"><img src="../../images/messenger.png"/></a></div>
+        </div>	
+	<a class="scroll_to_top" href="#top">^</a>
+    </div>
+</body>
+</html>

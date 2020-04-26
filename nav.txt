@@ -1,0 +1,15 @@
+<nav>
+           <div id="navleft">
+           		<a href="#">Trang ch?</a>
+            	<a href="#">Gi?i thi?u</a>
+            	<a href="#">S?n ph?m</a>
+           </div>
+           <div id="navcenter" style="font-family: ">
+            	<a href="#top">ShiBloom</a>
+           </div>
+           <div id="navright">
+            	<a href="news.html">Hoa ch? d?</a>
+            	<a href="contact.html">Hoa d?c bi?t</a>
+            	<a href="contact.html">Liên h?n</a>
+           </div>
+        </nav>
