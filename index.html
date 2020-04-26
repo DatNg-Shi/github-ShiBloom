@@ -1,0 +1,485 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home >> ShiBloom</title>
+<link rel="stylesheet" type="text/css" href="CSS/style01.css">
+<link rel="stylesheet" type="text/css" href="CSS/style02.css">
+<link rel="stylesheet" type="text/css" href="CSS/style03.css">
+<link rel="stylesheet" type="text/css" href="CSS/style04.css">
+<script language="javascript"src="js/slideshow.js" ></script>
+<style>
+	.saleleft {
+		background-image: url( images/sale1.PNG);
+	}
+	.saleright {
+		background-image: url( images/sale2.PNG);
+	}
+	
+	.name {
+    	color: #00C;
+   	 	text-align: center;
+    	font-size: 20px;
+		text-decoration: none;
+	}
+	
+	.dropdown{
+	position: relative;
+	display: inline-block;
+}
+/*sub-menu*/
+	.dropdown-content{
+		display: none;
+		position: absolute;
+		background-color: #8d7acb;
+		z-index: 1;
+		list-style: none;
+		width: 200px;;	
+		line-height: 40px;
+		padding-top: 0px;
+	}
+	.dropdown-content a{
+		display: block;	
+		z-index: 1;
+		width: 100%;	
+
+	}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	
+}
+
+	.img img{
+		position: absolute;
+		width: 20%;
+		top: 15%;
+		left: 40%
+	}
+	
+	.list_HoaBo .spbo {
+		background-color: none;
+		width: 22%;	
+		height: 340px;
+		left: 0;
+		margin-top: 2%;
+		text-align: center;
+		margin: 20px 15px 0 10px;
+		float: left;
+	}
+	
+	.list_HoaBo {
+		background-color: none;
+		width: 90%;
+		height: 840px;
+		margin: auto;
+	}
+	.list_HoaBo .spbo {
+		background-color: none;
+		width: 22%;	
+		height: 380px;
+		left: 0;
+		margin-top: 2%;
+		text-align: center;
+		margin: 20px 0 0 29px;
+		float: left;
+	}
+	.list_HoaBo .spbo a {
+		color: black;
+	}
+	.list_HoaBo .spbo #img{
+			width: 90%;
+			height: 60%;
+	}
+	.list_HoaBo .spbo a {
+		color: #8d7acb;
+	}
+	
+	#vien {
+		margin-top: 25px;
+		margin-bottom: 25px;
+	}
+	
+	
+</style>
+</head>
+
+<body>
+<div class="container">
+        <header> <center id="top"><img id="hinhslide" src="images/1.jpg"/></center>
+        	<div id="back">
+				<img src="images/back.png" onClick="back()">
+			</div>
+			<div id="next">
+				<img src="images/next.png" onClick="next()">
+			</div>
+        </header>
+       
+        <div id="service">
+        	<div class="inforleft">
+        		<h1>GIAO HÀNG MIỄN PHÍ</h1>
+        		<p>MIỄN PHÍ GIAO HÀNG VỚI ĐƠN HÀNG TRÊN 2TR</p>
+        	</div>
+        	<div class="inforcenter">
+        		<h1>ĐẢM BẢO VỀ GIÁ</h1>
+        		<p>ĐẢM BẢO GIÁ TỐT NHẤT</p>
+        	</div>
+        	<div class="inforright">
+        		<h1>TƯ VẤN MIỄN PHÍ</h1>
+        		<p>T2 - T7: 9 AM – 8 PM, CN: 9 AM – 6 PM</p>
+        	</div>
+		</div>	 
+ 		<nav class="menu">
+  			<div class="div_nav">
+   			<div class="img"><img src="images/shi2.png"></div>
+    			<ul class="menu_ul">
+     				<li class="menu_li ">
+        				<a class="nav-link" href="#">TRANG CHỦ</a>
+      				</li>
+      				<li class="menu_li ">
+        				<a class="nav-link" href="about.html">GIỚI THIỆU</a>
+      				</li>
+      				<li class="menu_li" style="padding-left: 10%; padding-right: 10%;">
+        				<a class="nav-link" href="#">XXX</a>
+      				</li>
+      				<li class="menu_li dropdown">
+        				<a class="nav-link" href="spHoa/hoabo1.html" id="navbarDropdown" style="display: block;">SẢN PHẨM</a>
+        				<div class="dropdown-content">
+          					<a class="dropdown-item" href="spHoa/hoabo1.html">HOA BÓ</a>
+          					
+          					<a class="dropdown-item" href="spHoa/hoabinh1.html">HOA BÌNH</a>
+          					
+          					<a class="dropdown-item" href="spHoa/hoahop1.html">HOA HỘP</a>
+          					
+          					<a class="dropdown-item" href="spHoa/hoacuoi1.html">HOA CƯỚI</a>
+          					
+          					<a class="dropdown-item" href="spHoa/hoake1.html">HOA KỆ</a>
+          					
+          					<a class="dropdown-item" href="spHoa/xehoa1.html">XE HOA</a>
+        				</div>
+      				</li>
+      				<li class="menu_li" style="">
+        					<a class="nav-link disabled" href="lienhe.html">LIÊN HỆ</a>
+      				</li>
+    			</ul>
+  			</div>
+		</nav>   
+       
+        <article class="hoamoi2018">
+           <h2>Mẫu Hoa Mới 2019</h2>
+            <div class="list">
+                <!--Mỗi đồ sẽ nằm trong div sp-->
+                <div class="sp">
+					<img src="images/hoatinhyeu.jpg" />
+					<p class="name"><a href="spHoa/hoaty1.html">Hoa Tình Yêu</a></p> 
+                </div>
+				<div class="sp">
+                    <img src="images/hoasinhnhat.jpg" />
+                    <p class="name"><a href="spHoa/hoasn1.html">Hoa Sinh Nhật</a></p> 
+                </div>
+                <div class="sp">
+                    <img src="images/mauhoamoi.jpg" />
+					<p class="name"><a href="spHoa/hoamm1.html">Mấu Hoa Mới</a>
+                </div>
+                <div class="sp">
+                    <img src="images/hoatangme.jpg" />
+                    <p class="name"><a href="spHoa/hoatangme1.html">Hoa Tặng Mẹ</a></p> 
+                </div>
+                <div class="sp">
+                    <img src="images/hoachucmung.jpg" />
+                    <p class="name"><a href="spHoa/hoacm1.html">Hoa Chúc Mừng</a></p>
+                </div>
+                <div class="sp">
+                    <img src="images/hoachiabuon.jpg" />
+                    <p class="name"><a href="spHoa/hoacb1.html">Hoa Chia Buồn</a></p> 
+                </div>
+            </div>
+        </article>
+        <div class="gosapham">
+        	<div class="saleleft">
+       	 		<div id="textimage">
+        	 		<p id="text1">Phổ biến nhất</p>
+        	 		<p id="text2">Ưu đãi theo mùa</p>
+        	 		<p id="gosp"><a href="spHoa/hoabo1.html">Cửa hàng</a></p>
+        	 	</div>
+        	</div>
+        	<div class="saleright">
+        		<div id="textimage">
+					<p id="text1">Duy nhất tháng 12</p>
+        			<p id="text2">Mẫu hoa giáng sinh</p>
+        			<p id="gosp"><a href="spHoa/hoabo1.html">Xem toàn bộ mẫu hoa</a></p>
+        		</div>
+        	</div>
+        </div>
+        <div class="hoabo">
+        	<h2>HOA BÓ</h2>
+        	<div class="list_HoaBo">
+                <!--Mỗi đồ sẽ nằm trong div sp-->
+                <div class="spbo">
+                    <img id="img" src="images/bo103.jpg"  />
+                    <img id="vien" src="images/border.png"/>
+					<p class="name"><a href="spHoa/info/bo103.html">Hoa bó mẫu SB-BO103</a></p> 
+               		<p class="price">700.000₫</p>
+                </div>
+				<div class="spbo">
+                    <img id="img" src="images/bo102.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/bo102.html">Hoa bó mẫu SB-BO102</a></p> 
+                    <p class="price">700.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/bo101.jpg" />
+                    <img id="vien" src="images/border.png"/>
+					<p class="name"><a href="spHoa/info/bo101.html">Hoa bó mẫu SB-BO101</a>
+               		<p class="price">1.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/bo100.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/bo100.html">Hoa bó mẫu SB-BO100</a></p> 
+                    <p class="price">800.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/bo99.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/bo99.html">Hoa bó mẫu SB-BO99</a></p>
+                    <p class="price">2.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/bo98.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/bo98.html">Hoa bó mẫu SB-BO98</a></p> 
+                    <p class="price">1.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/bo96.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/bo96.html">Hoa bó mẫu SB-BO96</a></p> 
+                    <p class="price">2.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/bo95.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/bo95.html">Hoa bó mẫu SB-BO95</a></p> 
+                    <p class="price">700.000₫</p>
+                </div>
+            </div>
+            <div class="more"><a href="spHoa/hoabo1.html">Xem thêm</a></div>
+        </div>
+        <div class="hoabo">
+        	<h2>HOA BÌNH</h2>
+        	<div class="list_HoaBo">
+                <!--Mỗi đồ sẽ nằm trong div sp-->
+                <div class="spbo">
+                    <img id="img" src="images/binh28.jpg"  />
+                    <img id="vien" src="images/border.png"/>
+					<p class="name"><a href="spHoa/info/binh28.html">Hoa bình mẫu SL-B28</a></p> 
+               		<p class="price">850.000₫</p>
+                </div>
+				<div class="spbo">
+                    <img id="img" src="images/binh30.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/binh30.html">Hoa bình mẫu SL-B30</a></p> 
+                    <p class="price">850.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/binh31.jpg" />
+                    <img id="vien" src="images/border.png"/>
+					<p class="name"><a href="spHoa/info/binh31.html">Hoa bình mẫu SL-B31</a>
+               		<p class="price">850.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/binh25.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/binh25.html">Hoa bình mẫu SL-B25</a></p> 
+                    <p class="price">2.200.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/binh05.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/binh5.html">Hoa bình mẫu SL-B05</a></p>
+                    <p class="price">700.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/binh11.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/binh11.html">Hoa bình mẫu SL-B11</a></p> 
+                    <p class="price">1.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/binh10.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/binh10.html">Hoa bình mẫu SL-B10</a></p> 
+                    <p class="price">2.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/binh12.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/binh12.html">Hoa bình mẫu SL-B12</a></p> 
+                    <p class="price">750.000₫</p>
+                </div>
+            </div>
+            <div class="more"><a href="spHoa/hoabinh1.html">Xem thêm</a></div>
+        </div>
+        <div class="hoabo">
+        	<h2>HOA HỘP</h2>
+        	<div class="list_HoaBo">
+                <!--Mỗi đồ sẽ nằm trong div sp-->
+                <div class="spbo">
+                    <img id="img" src="images/hop70.jpg"  />
+                    <img id="vien" src="images/border.png"/>
+					<p class="name"><a href="spHoa/info/h70.html">Hoa hộp mẫu SL-H70</a></p> 
+               		<p class="price">900.000₫</p>
+                </div>
+				<div class="spbo">
+                    <img id="img" src="images/hop69.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/h69.html">Hoa hộp mẫu SL-H69</a></p> 
+                    <p class="price">800.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/hop65.jpg" />
+                    <img id="vien" src="images/border.png"/>
+					<p class="name"><a href="spHoa/info/h65.html">Hoa hộp mẫu SL-H65</a></p>
+               		<p class="price">700.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/hop61.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/h61.html">Hoa hộp mẫu SL-H61</a></p> 
+                    <p class="price">900.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/hop60.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/h60.html">Hoa hộp mẫu SL-H60</a></p>
+                    <p class="price">1.300.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/hop34.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/h34.html">Hoa hộp mẫu SL-H34</a></p> 
+                    <p class="price">1.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/hop33.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/h33.html">Hoa hộp mẫu SL-H33</a></p> 
+                    <p class="price">800.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/hop20.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/h20.html">Hoa hộp mẫu SL-H20</a></p> 
+                    <p class="price">900.000₫</p>
+                </div>
+            </div>
+            <div class="more"><a href="spHoa/hoahop1.html">Xem thêm</a></div>
+        </div>
+        <div class="hoabo">
+        	<h2>HOA CHIA BUỒN</h2>
+        	<div class="list_HoaBo">
+                <!--Mỗi đồ sẽ nằm trong div sp-->
+                <div class="spbo">
+                    <img id="img" src="images/cb31.jpg"  />
+                    <img id="vien" src="images/border.png"/>
+					<p class="name"><a href="spHoa/info/cb31.html">Hoa chia buồn mẫu SL-CB31</a></p> 
+               		<p class="price">3.500.000₫</p>
+                </div>
+				<div class="spbo">
+                    <img id="img" src="images/cb30.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/cb30.html">Hoa chia buồn mẫu SL-CB30</a></p> 
+                    <p class="price">3.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/cb22.jpg" />
+                    <img id="vien" src="images/border.png"/>
+					<p class="name"><a href="spHoa/info/cb22.html">Hoa chia buồn mẫu SL-CB22</a>
+               		<p class="price">2.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/cb23.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/cb25.html">Hoa chia buồn mẫu SL-CB25</a></p> 
+                    <p class="price">2.200.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/cb12.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/cb12.html">Hoa chia buồn mẫu SL-CB12</a></p>
+                    <p class="price">2.500.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/cb15.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/cb21.html">Hoa chia buồn mẫu SL-CB21</a></p> 
+                    <p class="price">1.500.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/cb16.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/cb16.html">Hoa chia buồn mẫu SL-CB16</a></p> 
+                    <p class="price">2.000.000₫</p>
+                </div>
+                <div class="spbo">
+                    <img id="img" src="images/cb18.jpg" />
+                    <img id="vien" src="images/border.png"/>
+                    <p class="name"><a href="spHoa/info/cb18.html">Hoa chia buồn mẫu SL-CB18</a></p> 
+                    <p class="price">1.500.000₫</p>
+                </div>
+            </div>
+            <div class="more"><a href="spHoa/hoacb1.html">Xem thêm</a></div>
+        </div>
+        <div class="newPost">
+            <img src="https://img.icons8.com/color/80/000000/sakura.png">
+            <p style="font-size: 45px; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'">Bài Viết Mới</p>
+            <p style="font-size: 13px; color: hotpink; font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'">NHẬN MẸO TỪ CÁC CHUYÊN GIA VỀ HOA, TÌM HIỂU Ý NGHĨA CÁC LOẠI HOA</p>
+        </div>
+        <div class="endPic"><img src="images/endPic.PNG"/></div>
+        <footer>
+        	<div class="footer_left">
+        	<ul style="font-weight: bold">
+        		<li><a href="about.html">Về Chúng Tôi</a></li>
+        		<li><a href="spHoa/hoabo1.html">Cửa Hàng</a></li>
+        		<li><a href="danhgia.html">Đánh Giá</a></li>
+        		<li><a href="lienhe.html">Liên Hệ</a></li>
+        		<li><a href="https://www.facebook.com/ryoushikaidou"><img src="images/fb.png"/></a></li>
+        	</ul>
+     		</div>
+     		<div class="footer_center">
+     			<ul>
+        			<li style="font-weight: bold; font-size: 20px">Giờ Mở Cửa</li>
+        			<li>T2 - T7 : 9:00 AM – 8:00 PM</li>
+        			<li>CN : 9:00 AM – 6:00 PM</li>
+        		</ul>
+     		</div>
+     		<div class="footer_right">
+     			<ul>
+        			<li style="font-weight: bold; font-size: 20px">Liên Hệ</li>
+        			<li>999 Phần Mềm Quang Trung, quận 12, TP.HCM</li>
+        			<li>Email:shibloomvn@gmail.com</li>
+        			<li>Telephone:0904.696.969 - 0938.88.8282</li>
+        		</ul>
+     		</div>
+        </footer>
+        <div class="copyright">
+        	<p>Copyright © 2019 thuộc về ShiBloom</p>
+        	<div class="card">
+        		<img src="images/paypal.jpg">
+        		<img src="images/mastercard.jpg"/>
+        		<img src="images/visa.jpg"/>
+        		<img src="images/paypal.jpg"/>
+        		<img src="images/americanexpress.jpg"/>	
+			</div>
+        </div>
+        <div class="lienhe">
+        	<div id="call" style="background-color: #4A57DC;"><a href="tel:0938778284"><img src="images/call.png"/></a></div>
+        	<div id="call" style="background-color: orange;"><a href="sms:0938778284"><img src="images/mail.png"/></a></div>
+        	<div id="call" style="background-color: #4A57DC;"><a href="https://zalo.me/0938778284"><img src="images/zalo.png"/></a></div>
+        	<div id="call" style="background-color: red;"><a href="https://m.me/ryoushikaidou"><img src="images/messenger.png"/></a></div>
+        </div>
+        <button class="scroll_to_top" onclick="topFunction()" id="myBtn" title="Go to top">^</button>	
+    </div>
+</body>
+</html>
